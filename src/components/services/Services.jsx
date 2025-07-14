@@ -36,8 +36,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          I build modern web platforms and AI-powered solutions
+          <br /> that drive real business results.
         </p>
         <hr />
       </motion.div>
@@ -45,14 +45,16 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Scalable</motion.b>{" "}
+            Platforms
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "orange" }}>Built with</motion.b>{" "}
+            Code & Intelligence
           </h1>
-          <button>WHAT WE DO?</button>
+          <button>MY EXPERTISE</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,53 +62,45 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Frontend Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            High-performance, responsive UI development using <em>React.js</em>,{" "}
+            <em>Next.js</em>, and <em>Tailwind CSS</em>. Focused on delivering
+            smooth user experiences across web and mobile platforms.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Full-Stack Solutions</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            End-to-end development of scalable B2B/B2C platforms with <em>GraphQL</em>,
+            <em>Node.js</em>, <em>PostgreSQL</em>, and <em>cloud-first</em> architecture. Strong experience
+            in CMS, admin panels, and booking systems.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>AI Agent Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Building smart assistant agents using <em>OpenAI</em>,{" "}
+            <em>LangChain</em>, and custom pipelines to automate workflows and
+            boost team productivity by over 50%.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Performance Optimization</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Experience optimizing complex platforms, reducing load times to
+            sub-millisecond levels, and implementing best practices with SSR,
+            SEO, caching, and efficient state management.
           </p>
-          <button>Go</button>
         </motion.div>
       </motion.div>
     </motion.div>

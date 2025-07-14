@@ -70,7 +70,7 @@
       }
 
       h1 {
-        font-size: 96px;
+        font-size: 94px;
         font-weight: 100;
 
         @include mobile {
@@ -121,9 +121,15 @@
       }
 
       p {
+        line-height: 1.8;
         @include mobile {
           display: none;
         }
+        em {
+          font-style: italic;
+          font-weight: 500;
+        }
+        
       }
 
       button {

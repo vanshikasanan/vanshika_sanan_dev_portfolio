@@ -1,5 +1,8 @@
+
+
 import "./hero.scss";
 import { motion } from "framer-motion";
+
 
 const textVariants = {
   initial: {
@@ -23,6 +26,7 @@ const textVariants = {
     },
   },
 };
+
 const sliderVariants = {
   initial: {
     x: 0,
@@ -47,10 +51,13 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>HARVEY TYLER</motion.h2>
+          <motion.h2 variants={textVariants}>VANSHIKA SANAN</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer and UI designer
+            Software developer 
           </motion.h1>
+          <motion.h2 variants={textVariants} style={{display:"flex", alignItems:"center"}}>
+            @ <img src="/elivaasLight.svg" style={{height:"50px", width:"150px"}}/>
+          </motion.h2>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
@@ -65,13 +72,15 @@ const Hero = () => {
           />
         </motion.div>
       </div>
+ 
+
       <motion.div
         className="slidingTextContainer"
         variants={sliderVariants}
         initial="initial"
         animate="animate"
       >
-        Writer Content Creator Influencer
+        Software Developer 
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />
